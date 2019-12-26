@@ -1,11 +1,15 @@
 {
   "main": "src/index.js",
   "scripts": {
+    "build": "elm make src/Main.elm --output dist/elm.js",
     "start": "node src/index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "now": "^16.4.4"
+  },
+  "devDependencies": {
+    "elm": "^0.19.1-3"
   }
 }
